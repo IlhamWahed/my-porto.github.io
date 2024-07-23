@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body.sertif-body {
+  background-color: #1d5d9b !important;
+}
+
+.main-color {
+  background-color: #1d5d9b !important;
+}
+
+.text-color {
+  color: #ede4ff;
+}
+
+.nav-color {
+  background-color: #f8fdcf !important;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+
+.header span {
+  color: #1d5d9b;
+}
+
+#contact span {
+  color: #f3aa60;
+}
+
+#skills h2 {
+  color: #f3aa60;
+}
+
+.sosmed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.icon-sosmed {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  height: 40px;
+  width: 100px;
+  background: #007bb5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.3s;
+}
+
+.icon-sosmed:nth-child(2) {
+  background: #f31559;
+}
+
+.icon-sosmed:nth-child(3) {
+  background: #1da1f2;
+}
+
+.icon-sosmed:nth-child(4) {
+  background: #171515;
+}
+
+.icon-sosmed a,
+i {
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.icon-sosmed:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.values h2,
+.about h2,
+.portofolio h2,
+#skills h2,
+#contact h2 {
+  color: #007bb5;
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.sertif {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.number ol {
+  padding: 10px;
+  background-color: #007bb5;
+}
+
+.number ol li {
+  background-color: #f6f4eb;
+}
+
+.hovered-card {
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.hovered-card:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+.image-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin: 10px;
+  height: 80px;
+  width: 90px;
+  background-color: #071952;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 4px rgba(225, 225, 225, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.image img {
+  width: 50px;
+  height: 50px;
+}
+
+.image:nth-child(10) img {
+  width: 75px;
+  height: 60px;
+}
+
+@media only screen and (max-width: 350px) {
+  .image {
+    height: 50px;
+    width: 60px;
+  }
+
+  .image img,
+  image:nth-child(8) img {
+    width: 35px;
+    height: 35px;
+  }
+}
